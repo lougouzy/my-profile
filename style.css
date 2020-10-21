@@ -1,0 +1,118 @@
+h1 {
+	color: #FFDB58;
+	font-size: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+	letter-spacing: 1px;
+	text-justify:center;
+	text-transform: uppercase;
+	}
+
+h2 {
+	color: #45322E;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	letter-spacing: 1px;
+	text-justify:center;
+	text-transform: uppercase;
+	}
+
+
+body{
+	background-color:#293133;
+	color: #293133;
+	font-size: 20px;
+	font-weight: 90;
+	font-family: Helvetica, sans-serif;
+	text-justify:center;
+	font-weight: lighter;
+	}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color:#293133
+	}
+
+a:hover {
+		color: #FFCF39
+
+	}
+
+/* custom design with class*/
+.conta{
+	width: 700px
+	margin: 40px auto
+
+}
+
+@media (max-width: 760px) {
+  .conta {
+    width: 600px;
+  }
+  .fond-blanc {
+  	width: 100px auto
+  	background-color: red;
+  }
+}
+@media (max-width: 500px) {
+  .conta{
+    width: 500px;
+
+  }
+  .fond-blanc {
+  	width: 25px auto
+  	background-color: red;
+  }
+}
+
+
+.img-circle{
+	border-radius: 50%
+}
+
+.shadowed {
+
+	box-shadow: 5px 5px 3px grey;
+}
+
+
+.fond-blanc{
+	background-color: white;
+	padding: 50px 100px;
+	box-shadow:0px 10px 30px rgba (0,0,0.3)
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 50px 100px;
+    text-align: center;
+}
+
+
+.btn{
+	background-color: #B36700;
+	color: white;
+	padding: 15px 20px; 
+	border-radius: 20px;}
+
+.btn:hover {
+	background-color: #45322E;
+	color: white }
+
+.list-inline { 
+	list-style: none;
+	padding-left: 0px; 
+}
+.icon li{
+	display: inline;
+	padding: 10px ;
+}
+
+.fab {
+	font-size: 50px;
+}
+
+/* Design adjuntments using id (1% design remaining)*/
+#introduction p {
+	margin-bottom: 40px;
+
+
+}
